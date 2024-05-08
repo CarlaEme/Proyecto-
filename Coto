@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación web Fraccionamiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #af3c3c;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aplicación para Inquilinos de Fraccionamiento</h1>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Estado de Cuenta</h2>
+            <!-- Aquí iría el contenido correspondiente al estado de cuenta del inquilino -->
+        </div>
+        <div class="card">
+            <h2>Reporte de Mantenimiento</h2>
+            <!-- Aquí iría el contenido correspondiente al reporte de mantenimiento del fraccionamiento -->
+        </div>
+        <div class="card">
+            <h2>Calendario de Eventos</h2>
+            <!-- Aquí iría el calendario con los eventos del fraccionamiento -->
+        </div>
+        <div class="card">
+            <h2>Formulario de Contacto</h2>
+            <!-- Aquí iría un formulario de contacto para comunicarse con la administración del fraccionamiento -->
+        </div>
+    </main>
+</body>
+</html>
