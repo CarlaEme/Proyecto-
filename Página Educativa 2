@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Educativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #d3d62b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            color: #e0313a;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página Educativa</h1>
+    </header>
+
+        <form action="#" method="post">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required autofocus>
+
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <main>
+        <h2>Contenido educativo</h2>
+        <p>El objetivo del sitio web será proporcionar recursos educativos en línea para estudiantes de todas las edades.</p>
+        <h3>Temas a explorar:</h3>
+        <ul>
+            <li><a href="#">Matemáticas</a></li>
+            <li><a href="#">Ciencias</a></li>
+            <li><a href="#">Historia</a></li>
+        </ul>
+        <h3>Recursos adicionales:</h3>
+        <ul>
+            <li><a href="#">Videos educativos</a></li>
+            <li><a href="#">Material didáctico</a></li>
+            <li><a href="#">Juegos interactivos</a></li>
+            <li><a href="#">Prácticas y simulaciones</a></li>
+        </ul>
+        <h4>Herramientas sociales:</h3>
+        <ul>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Foro</a></li>
+        </ul>
+
+    </main>
+
+
+
+    <!-- Aquí va el inicio de sesión -->
+ <nav>
+    <input type="text" placeholder="Buscar...">
+    <button>Buscar</button>
+</nav>
+
+</body>
+</html>
